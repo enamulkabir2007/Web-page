@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
+}
+.btn{
+  width:140px;
+  height: 40px;
+  background-color:white;
+  color:black;
+}
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.navbar ul li{
+  display: inline;
+  margin-right:10px ;
+
+}
+.second-section{
+  padding: 3rem 0;
+}
+.about-me{
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 8px;
+
+}
+.about-me-text{
+  color:#7B7B7B;
+  text-align: center;
+}
+.first-section{
+  background-image: url(./asset/mypic.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10rem 0;
+  text-align: center;
+
+}
+.first-section h2{
+  font-size: 5rem;
+  margin:10px 0;
+  color:white;
+}
+.first-section p{
+  font-size: 2rem;
+  color:white;
+}
+
+.about-me-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:2rem 0;
+}
+.about-me-details{
+  width:500px
+}
+.about-me-details h2{
+  font-size: 33px;
+  
+}
+.about-me-details p{
+  color:#7B7B7B;
+  margin:15px 0;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns:auto auto auto;
+}
+.grid-single-item{
+  padding:50px;
+  text-align: center;
+}
+.custom-icon{
+  font-size: 50px;
+}
+.grid-single-item h2{
+  margin:15px 0;
+}
+.grid-single-item p{
+  color:#7B7B7B;
+}
+.testimonial-text{
+  color:black !important;
+  margin-top: 5px;
+}
+.Contact-me{
+  font-size:50px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+form{
+  margin-left: 33rem;
+  margin-top: 20px;
+}
+form input{
+  width: 450px;
+}
+form textarea{
+  width: 450px;
+}
+.Submit-btn{
+ width:150px;
+ height:35px;
+ background-color: black;
+ color:white;
+ margin-top:10px;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color:white;
+  height: 3rem;
+}
+footer p{
+  padding-top: 15px;
+}
